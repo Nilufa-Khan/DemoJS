@@ -23,6 +23,7 @@ console.log(colors)
 console.log("====pop====")
 console.log(colors.pop())
 console.log(colors)
+
 //shift remove 0th index element
 console.log("====shift====")
 console.log(colors.shift())

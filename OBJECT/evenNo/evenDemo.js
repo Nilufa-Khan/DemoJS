@@ -7,6 +7,8 @@ for(let val of num){
         console.log(val + " ")
         sumOfEven = sumOfEven + val;
     }else{
+        console.log("Odd numbers are")
+        console.log(val + " ")
         sumOfOdd = sumOfOdd + val
     }
 }

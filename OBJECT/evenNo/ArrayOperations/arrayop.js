@@ -6,6 +6,7 @@ console.log("====push====")
 console.log(colors.push("maroon","babypink"));
 console.log(colors)
 //push element at last index
+
 console.log("====push====")
 colors.push("yellow");
 console.log(colors)

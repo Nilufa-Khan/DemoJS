@@ -34,6 +34,24 @@ console.log("3rd index : ",example[2].id)
 console.log("3rd index : ",example[2].name)
 console.log("5th index : ",example[5])
 console.log(example.length);
+//print value
+for(let i = 0; i < roll.length; i++){
+    console.log(roll[i]);
+}
+// print index
+for(let val in roll){
+    console.log(val)
+}
+//print value
+for(let val in roll){
+    console.log(roll[val])
+}
+let fruits = ["Apple", "Mango","Banana"];
+let fruitString = "";
+for(let val of fruits){
+   fruitString += val+"  ";
+}
+console.log(fruitString)
 //dynamically we can add the data, delete the data ==> operations
 //array method
 // in js arrays are not primitive its an object

@@ -35,7 +35,6 @@ console.log("====slice====")
 let number = [11,23,45,67,43,21,22,33,44]
 console.log(number)
 
-
 let ss = number.slice(2,5) // 45,67,43
 console.log(ss)
 console.log("==============")

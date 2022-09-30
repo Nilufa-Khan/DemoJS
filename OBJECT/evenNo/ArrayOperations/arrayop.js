@@ -51,5 +51,16 @@ console.log("=======Reverse=======")
 console.log(number.reverse())
 console.log("=======Reverse Sort=======")
 console.log(number.reverse().sort())    
+let studentName = ["Supriya","Subholeena","Shaheen","Chandni","Mausham"]
 
-
+studentName.splice(-1,4,"meghali","monali") // ['Supriya', 'Subholeena', 'Shaheen', 'Chandni', 'meghali', 'monali']
+console.log(studentName)
+studentName.slice(-2,4)
+console.log("=====================")
+console.log(studentName)
+let x = [...colors,...number,...studentName]
+console.log(x)
+let[m1,m2,...m3] = studentName;
+console.log("m1 : "+m1)
+console.log("m2 : "+m2)
+console.log("m3 : "+m3)

@@ -29,6 +29,7 @@ console.log(roll.length);
 
 let example = [12,"hi",{id:1,"name":"Zaid"},1.45,"M",[10,23]];
 
+
 console.log("Array : ",example);
 console.log("3rd index : ",example[2])
 console.log("3rd index : ",example[2].id)

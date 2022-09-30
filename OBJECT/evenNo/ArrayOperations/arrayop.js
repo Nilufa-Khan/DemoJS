@@ -3,6 +3,7 @@
 
 let colors = ["red", "black","white"]
 console.log("Initially elements in array are :\n" + colors+" ")
+
 console.log("====push====")
 console.log(colors.push("maroon","babypink"));
 console.log(colors)

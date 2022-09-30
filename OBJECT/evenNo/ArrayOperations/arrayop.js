@@ -1,7 +1,9 @@
 // insertion  .push(),unshift()
 //removal      .pop(), shift()
 let colors = ["red", "black","white"]
-colors.push("maroon","babypink");
+console.log("Initially elements in array are :\n" + colors+" ")
+console.log("====push====")
+console.log(colors.push("maroon","babypink"));
 console.log(colors)
 //push element at last index
 console.log("====push====")

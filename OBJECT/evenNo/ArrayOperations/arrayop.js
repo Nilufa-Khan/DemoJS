@@ -10,6 +10,7 @@ console.log("====push====")
 colors.push("yellow");
 console.log(colors)
 // unshift add elemet at 0th index
+
 console.log("====unshift====")
 colors.unshift("pink","orange")
 console.log(colors)

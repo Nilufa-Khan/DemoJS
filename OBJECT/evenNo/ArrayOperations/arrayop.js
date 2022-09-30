@@ -37,6 +37,7 @@ console.log(number)
 
 let ss = number.slice(2,5) // 45,67,43
 console.log(ss)
+
 console.log("==============")
 console.log(number)
 

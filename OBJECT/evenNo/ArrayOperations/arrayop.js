@@ -44,4 +44,11 @@ console.log(number)
 console.log("=======Search element=======")
 
 console.log(number.indexOf(33))
+console.log(number.lastIndexOf(43,7))
+console.log("=======Sort=======")
+console.log(number.sort())
+console.log("=======Reverse=======")
+console.log(number.reverse())
+console.log("=======Reverse Sort=======")
+console.log(number.reverse().sort())    
 

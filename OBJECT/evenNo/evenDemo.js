@@ -3,6 +3,7 @@ let sumOfEven = 0;
 let sumOfOdd = 0;
 for(let val of num){
     if(val % 2 == 0){
+        console.log("Even numbers are")
         console.log(val + " ")
         sumOfEven = sumOfEven + val;
     }else{

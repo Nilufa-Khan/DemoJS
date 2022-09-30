@@ -18,6 +18,7 @@ console.log(colors)
 console.log("====unshift====")
 colors.unshift("pink","orange")
 console.log(colors)
+
 //pop remove the last index element
 console.log("====pop====")
 console.log(colors.pop())

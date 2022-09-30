@@ -3,9 +3,12 @@
 let colors = ["red", "black","white"]
 colors.push("maroon","babypink");
 console.log(colors)
+//push element at last index
 colors.push("yellow");
 console.log(colors)
-colors.unshift("pink",3,"orange")
+// unshift add elemet at 0th index
+colors.unshift("pink","orange")
 console.log(colors)
 colors.shift()
 console.log(colors)
+

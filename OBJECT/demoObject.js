@@ -46,6 +46,7 @@ for(let val in roll){
 for(let val in roll){
     console.log(roll[val])
 }
+
 let fruits = ["Apple", "Mango","Banana"];
 let fruitString = "";
 for(let val of fruits){

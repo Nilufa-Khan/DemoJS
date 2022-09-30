@@ -52,6 +52,7 @@ let fruitString = "";
 for(let val of fruits){
    fruitString += val+"  ";
 }
+
 console.log(fruitString)
 //dynamically we can add the data, delete the data ==> operations
 //array method

@@ -1,4 +1,5 @@
 //anyonumnus function
+
 const cube = function(number)
 {
     return number*number*number

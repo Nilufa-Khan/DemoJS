@@ -40,4 +40,8 @@ console.log(ss)
 
 console.log("==============")
 console.log(number)
+//search an element
+console.log("=======Search element=======")
+
+console.log(number.indexOf(33))
 
